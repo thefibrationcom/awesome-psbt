@@ -8,7 +8,8 @@ Here you can find useful content about PSBTs:
   - [OKX implementation of PSBTs withinin their 'Discover' platform](#section1.4)
   - [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](#section1.5)
   - [Lightning CoinJoins](#section1.6)
-  - [CoinSwap](#section1.7) 
+  - [CoinSwap Wallet](#section1.7)
+  - [Wasabi Wallet CoinJoin](#section1.8) 
 - [PSBTs challenges](#section2)
 - [BIPs](#section3)
 - [Libraries](#section4)
@@ -30,7 +31,9 @@ Here you can find useful content about PSBTs:
 <a id="section1.6"></a>
 - [Lightning CoinJoins](https://thebitcoinmanual.com/articles/lightning-coinjoins/)
 <a id="section1.7"></a>
-- [CoinSwap Wallet](https://www.coinswap.space/) 
+- [CoinSwap Wallet](https://www.coinswap.space/)
+<a id="section1.8"></a>
+- [Wasabi Wallet CoinJoin](https://blog.wasabiwallet.io/sending-psbt-transactions/) 
 
 <a id="section2"></a>
 ## PSBT challenges
