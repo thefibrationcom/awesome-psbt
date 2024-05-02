@@ -1,7 +1,7 @@
 # awesome-psbt
 Here you can find useful content about PSBTs:
 
-- How PSBTs are used in different projects:
+[- How PSBTs are used in different projects:]([Link to Section](#section1))
   - Security of PSBT on Magic Eden
   - Bitcoin Auctions on Magic Eden
   - Contracts State Based on UTXOs in RGB protocol
@@ -9,7 +9,7 @@ Here you can find useful content about PSBTs:
   - Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs
 - PSBTs challenges
 - How to create/sign/broadcast psbt using different approaches
-
+<a id="section1"></a>
 ## How different projects are using PSBTs right now
 
 ### [Security of PSBT on Magic Eden]([url](https://help.magiceden.io/en/articles/7191642-safeguarding-your-bitcoin-transactions-exploring-the-security-of-psbt-on-magic-eden))
