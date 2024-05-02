@@ -2,13 +2,13 @@
 Here you can find useful content about PSBTs:
 
 [- How PSBTs are used in different projects:](#section1)
-  - Security of PSBT on Magic Eden
-  - Bitcoin Auctions on Magic Eden
-  - Contracts State Based on UTXOs in RGB protocol
-  - OKX implementation of PSBTs withinin their 'Discover' platform
-  - Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs
-- PSBTs challenges
-- How to create/sign/broadcast psbt using different approaches
+  [- Security of PSBT on Magic Eden](#section1.1)
+  [- Bitcoin Auctions on Magic Eden](#section1.2)
+  [- Contracts State Based on UTXOs in RGB protocol](#section1.3)
+  [- OKX implementation of PSBTs withinin their 'Discover' platform](#section1.4)
+  [- Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](#section1.5)
+[- PSBTs challenges](#section2)
+[- How to create/sign/broadcast psbt using different approaches](#section3)
 <a id="section1"></a>
 ## How different projects are using PSBTs right now
 <a id="section1.1"></a>
@@ -22,7 +22,7 @@ Magic Eden emphasizes safety and accessibility in Bitcoin transactions through P
 - Access to Open-Source Details: Users can access open-source details and information through Magic Eden's GitHub repository and Twitter thread.
 - Invalidation of Old Listings: Magic Eden is developing an ordinal batch-transfer tool for on-chain invalidation of previous listings, ensuring gas-efficient transfer of ordinals to wallets and invalidating previous off-chain listings.
 - Advantages of PSBT: PSBT offers secure and efficient transaction execution in Bitcoin Ordinal platforms. By safeguarding sellers' partial signatures and employing high-quality encryption, PSBT enables confident buying and selling of Digital Artifacts. The transparent and open-source nature of PSBT facilitates ongoing improvements and user-friendly experiences for users of all experience levels.
-
+<a id="section1.2"></a>
 ### [Bitcoin Auctions on Magic Eden]([url](https://help.magiceden.io/en/articles/8437081-dive-into-the-world-of-bitcoin-auctions-on-magic-eden))
 Magic Eden facilitates Bitcoin auctions through a user-friendly process that integrates cutting-edge blockchain technology. Here are the key points:
 
@@ -39,7 +39,7 @@ Magic Eden facilitates Bitcoin auctions through a user-friendly process that int
 - Recommendations: Magic Eden recommends larger bid deposits, anticipating network delays, and managing auction balances effectively for a seamless experience.
 
 Overall, Magic Eden aims to streamline the Bitcoin auction process, making it efficient and accessible for both seasoned bidders and newcomers in the digital art space.
-
+<a id="section1.3"></a>
 ### [Contracts State Based on UTXOs in RGB protocol]([url](https://lbanklabs.medium.com/renaissance-of-bitcoin-scaling-iv-rgb-0ce0a3c8a656))
 Partially Signed Bitcoin Transactions (PSBT) within the RGB protocol for managing contract states. Here are the key points:
 
@@ -50,7 +50,7 @@ Partially Signed Bitcoin Transactions (PSBT) within the RGB protocol for managin
 - Integrity and Security: RGB's management of contract states ensures the integrity and security of transitions while leveraging the scalability and privacy advantages of client-side validation.
 
 In summary, the RGB protocol utilizes PSBT to manage contract states on the Bitcoin blockchain efficiently. This integration ensures robust security, integrity, and scalability for state transitions within the protocol.
-
+<a id="section1.4"></a>
 ### [OKX implementation of PSBTs withinin their 'Discover' platform]([url](https://finance.yahoo.com/news/flash-news-okx-wallet-enhances-030800985.html))
 OKX Wallet's integration of Partially Signed Bitcoin Transactions (PSBT) to enhance accessibility for Bitcoin decentralized applications (DApps) through its 'Discover' platform. Here are the key points:
 
@@ -61,7 +61,7 @@ OKX Wallet's integration of Partially Signed Bitcoin Transactions (PSBT) to enha
 - Diverse Offering on Discover Platform: OKX Wallet's Discover platform boasts over 5,500+ DApps, decentralized exchanges (DEXs), blockchain games, non-fungible tokens (NFTs), and supplementary tools, providing users with a comprehensive ecosystem to explore and engage with.
 
 In summary, OKX Wallet's integration of PSBT functionality within its Discover platform expands accessibility and usability for Bitcoin DApps, offering users a seamless experience to connect with various applications and explore the broader blockchain ecosystem.
-
+<a id="section1.5"></a>
 ### [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs]([url](https://research.aimultiple.com/how-do-ordinals-marketplaces-work/))
 Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for trading Bitcoin NFTs. Here's a summary of how Ordinals incorporate PSBTs into their marketplace operations:
 
@@ -77,7 +77,7 @@ Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for t
   - Transaction Process: PSBT-based transactions involve creating an unsigned transaction, obtaining signatures from necessary parties, finalizing it, and broadcasting it to the network.
 
 In summary, Ordinals marketplaces leverage PSBTs to facilitate secure and multi-party transactions for trading Bitcoin NFTs. Unlike traditional NFT marketplaces, Ordinals employ PSBTs to handle more complex scenarios and ensure additional layers of security, providing a robust framework for trading on the Bitcoin network.
-
+<a id="section2"></a>
 ## [PSBT challenges]([url](https://d-central.tech/what-is-a-partially-signed-bitcoin-transaction-psbt/))
 The challenges and limitations associated with Partially Signed Bitcoin Transactions (PSBT) and discusses ongoing developments to address these issues. Here are the key points:
 
@@ -87,7 +87,7 @@ The challenges and limitations associated with Partially Signed Bitcoin Transact
 - Community Commitment to Improvement: The ongoing development of PSBT underscores the Bitcoin community's commitment to evolving and improving the network's capabilities. Future iterations promise to enhance the security, privacy, and interoperability of Bitcoin transactions, offering new possibilities for users and developers alike.
 
 In summary, while PSBTs offer significant advantages for Bitcoin transactions, they also present challenges such as operational complexity and large file sizes. Ongoing developments, including PSBT version 2, aim to address these limitations, ensuring that PSBT remains a valuable tool for the Bitcoin ecosystem.
-
+<a id="section3"></a>
 ## How to create/sign/broadcast psbt
 
 ### PSBT on python:
