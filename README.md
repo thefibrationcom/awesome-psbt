@@ -10,7 +10,7 @@ Here you can find useful content about PSBTs:
 - [PSBTs challenges](#section2)
 - [BIPs](#section3)
 - [Libraries](#section4)
-- BTC Runes
+- [BTC Runes](#section5)
 
 <a id="section1"></a>
 ## How different projects are using PSBTs right now
@@ -47,6 +47,7 @@ Here you can find useful content about PSBTs:
 - btclib (https://btclib.org/)
 - rust-bitcoin (https://github.com/rust-bitcoin/rust-bitcoin)
 
+<a id="section5"></a>
 ## BTC Runes
 - What is Runes (https://runes.gitbook.io/xrcmarket/learn/what-is-runes)
 - RuneLib (https://github.com/sCrypt-Inc/runelib)
