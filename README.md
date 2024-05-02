@@ -1,6 +1,7 @@
 # awesome-psbt
-Place where you can find useful content about PSBTs:
-- How PSBTs are used in different projects:
+Here you can find useful content about PSBTs:
+
+- [How PSBTs are used in different projects:]([url](https://github.com/thefibrationcom/awesome-psbt?tab=readme-ov-file#how-different-projects-are-using-psbts-right-now:~:text=How%20different%20projects%20are%20using%20PSBTs%20right%20now))
   - Security of PSBT on Magic Eden
   - Bitcoin Auctions on Magic Eden
   - Contracts State Based on UTXOs in RGB protocol
