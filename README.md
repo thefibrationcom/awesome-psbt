@@ -12,7 +12,7 @@ Here you can find useful content about PSBTs:
 <a id="section1"></a>
 ## How different projects are using PSBTs right now
 <a id="section1.1"></a>
-### [Security of PSBT on Magic Eden]([url](https://help.magiceden.io/en/articles/7191642-safeguarding-your-bitcoin-transactions-exploring-the-security-of-psbt-on-magic-eden))
+### [Security of PSBT on Magic Eden](https://help.magiceden.io/en/articles/7191642-safeguarding-your-bitcoin-transactions-exploring-the-security-of-psbt-on-magic-eden)
 Magic Eden emphasizes safety and accessibility in Bitcoin transactions through Partially Signed Bitcoin Transactions (PSBT). Here's a breakdown of the key points:
 
 - Wallet and Private Key Protection: Magic Eden ensures the privacy and security of users' wallets and private keys by not accessing them directly. Instead, the platform interacts with users' Bitcoin wallets to securely guide them in signing PSBT transactions.
@@ -23,7 +23,7 @@ Magic Eden emphasizes safety and accessibility in Bitcoin transactions through P
 - Invalidation of Old Listings: Magic Eden is developing an ordinal batch-transfer tool for on-chain invalidation of previous listings, ensuring gas-efficient transfer of ordinals to wallets and invalidating previous off-chain listings.
 - Advantages of PSBT: PSBT offers secure and efficient transaction execution in Bitcoin Ordinal platforms. By safeguarding sellers' partial signatures and employing high-quality encryption, PSBT enables confident buying and selling of Digital Artifacts. The transparent and open-source nature of PSBT facilitates ongoing improvements and user-friendly experiences for users of all experience levels.
 <a id="section1.2"></a>
-### [Bitcoin Auctions on Magic Eden]([url](https://help.magiceden.io/en/articles/8437081-dive-into-the-world-of-bitcoin-auctions-on-magic-eden))
+### [Bitcoin Auctions on Magic Eden](https://help.magiceden.io/en/articles/8437081-dive-into-the-world-of-bitcoin-auctions-on-magic-eden)
 Magic Eden facilitates Bitcoin auctions through a user-friendly process that integrates cutting-edge blockchain technology. Here are the key points:
 
 - Connecting Wallet: Users connect their wallets like Unisat, Xverse, or Hiro to Magic Eden Bitcoin.
@@ -40,7 +40,7 @@ Magic Eden facilitates Bitcoin auctions through a user-friendly process that int
 
 Overall, Magic Eden aims to streamline the Bitcoin auction process, making it efficient and accessible for both seasoned bidders and newcomers in the digital art space.
 <a id="section1.3"></a>
-### [Contracts State Based on UTXOs in RGB protocol]([url](https://lbanklabs.medium.com/renaissance-of-bitcoin-scaling-iv-rgb-0ce0a3c8a656))
+### [Contracts State Based on UTXOs in RGB protocol](https://lbanklabs.medium.com/renaissance-of-bitcoin-scaling-iv-rgb-0ce0a3c8a656)
 Partially Signed Bitcoin Transactions (PSBT) within the RGB protocol for managing contract states. Here are the key points:
 
 - Contract State Evolution in RGB: Contract states in RGB are linked to unspent transaction outputs (UTXOs) on the Bitcoin blockchain. Each state is associated with an issuer and defined by a schema outlining validation rules for client-side validation.
@@ -51,7 +51,7 @@ Partially Signed Bitcoin Transactions (PSBT) within the RGB protocol for managin
 
 In summary, the RGB protocol utilizes PSBT to manage contract states on the Bitcoin blockchain efficiently. This integration ensures robust security, integrity, and scalability for state transitions within the protocol.
 <a id="section1.4"></a>
-### [OKX implementation of PSBTs withinin their 'Discover' platform]([url](https://finance.yahoo.com/news/flash-news-okx-wallet-enhances-030800985.html))
+### [OKX implementation of PSBTs withinin their 'Discover' platform](https://finance.yahoo.com/news/flash-news-okx-wallet-enhances-030800985.html)
 OKX Wallet's integration of Partially Signed Bitcoin Transactions (PSBT) to enhance accessibility for Bitcoin decentralized applications (DApps) through its 'Discover' platform. Here are the key points:
 
 - Introduction of PSBT Functionality: OKX Wallet has upgraded its 'Discover' platform to incorporate the PSBT signature function, a standard in Bitcoin transactions. PSBT facilitates the portability of unsigned transactions, allowing multiple parties to easily sign the same transaction.
@@ -62,7 +62,7 @@ OKX Wallet's integration of Partially Signed Bitcoin Transactions (PSBT) to enha
 
 In summary, OKX Wallet's integration of PSBT functionality within its Discover platform expands accessibility and usability for Bitcoin DApps, offering users a seamless experience to connect with various applications and explore the broader blockchain ecosystem.
 <a id="section1.5"></a>
-### [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs]([url](https://research.aimultiple.com/how-do-ordinals-marketplaces-work/))
+### [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](https://research.aimultiple.com/how-do-ordinals-marketplaces-work/)
 Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for trading Bitcoin NFTs. Here's a summary of how Ordinals incorporate PSBTs into their marketplace operations:
 
 - PSBT Solution Overview: Ordinals marketplaces adopt a PSBT solution, as proposed by Bitcoin Improvement Proposal (BIP) 174, to streamline multi-party transactions involved in trading Bitcoin NFTs. PSBT simplifies transactions requiring authorization by multiple signees before broadcasting to the Bitcoin network.
@@ -78,7 +78,7 @@ Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for t
 
 In summary, Ordinals marketplaces leverage PSBTs to facilitate secure and multi-party transactions for trading Bitcoin NFTs. Unlike traditional NFT marketplaces, Ordinals employ PSBTs to handle more complex scenarios and ensure additional layers of security, providing a robust framework for trading on the Bitcoin network.
 <a id="section2"></a>
-## [PSBT challenges]([url](https://d-central.tech/what-is-a-partially-signed-bitcoin-transaction-psbt/))
+## [PSBT challenges](https://d-central.tech/what-is-a-partially-signed-bitcoin-transaction-psbt/)
 The challenges and limitations associated with Partially Signed Bitcoin Transactions (PSBT) and discusses ongoing developments to address these issues. Here are the key points:
 
 - Learning Curve and Operational Complexity: PSBTs introduce a learning curve and operational complexity, especially for new Bitcoin users or those not technically inclined. The multi-step process of creating, signing, and broadcasting PSBTs can be daunting compared to traditional Bitcoin transactions, potentially hindering widespread adoption among casual users.
