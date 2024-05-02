@@ -1,7 +1,7 @@
 # awesome-psbt
 Here you can find useful content about PSBTs:
 
-- [How PSBTs are used in different projects:]([url](https://github.com/thefibrationcom/awesome-psbt?tab=readme-ov-file#how-different-projects-are-using-psbts-right-now:~:text=How%20different%20projects%20are%20using%20PSBTs%20right%20now))
+- How PSBTs are used in different projects:
   - Security of PSBT on Magic Eden
   - Bitcoin Auctions on Magic Eden
   - Contracts State Based on UTXOs in RGB protocol
@@ -62,16 +62,6 @@ OKX Wallet's integration of Partially Signed Bitcoin Transactions (PSBT) to enha
 
 In summary, OKX Wallet's integration of PSBT functionality within its Discover platform expands accessibility and usability for Bitcoin DApps, offering users a seamless experience to connect with various applications and explore the broader blockchain ecosystem.
 
-### [PSBT challenges]([url](https://d-central.tech/what-is-a-partially-signed-bitcoin-transaction-psbt/))
-The challenges and limitations associated with Partially Signed Bitcoin Transactions (PSBT) and discusses ongoing developments to address these issues. Here are the key points:
-
-- Learning Curve and Operational Complexity: PSBTs introduce a learning curve and operational complexity, especially for new Bitcoin users or those not technically inclined. The multi-step process of creating, signing, and broadcasting PSBTs can be daunting compared to traditional Bitcoin transactions, potentially hindering widespread adoption among casual users.
-- Size and Complexity of PSBT Files: PSBT files can become large and complex, particularly in transactions with multiple inputs, outputs, or signatures. Each component adds to the file's size, making it cumbersome to handle, especially when bandwidth and storage are limited. Managing and verifying the information within PSBT files can also be challenging, requiring careful attention to detail to avoid errors.
-- Ongoing Developments and Future Prospects: Developers in the Bitcoin community are actively working on enhancements and new versions of the PSBT standard to address its limitations. PSBT version 2 (BIP 370) is one such development aiming to improve transaction construction efficiency, support new transaction types, and reduce the size and complexity of PSBT files. These enhancements aim to simplify the PSBT process while retaining its security and flexibility benefits.
-- Community Commitment to Improvement: The ongoing development of PSBT underscores the Bitcoin community's commitment to evolving and improving the network's capabilities. Future iterations promise to enhance the security, privacy, and interoperability of Bitcoin transactions, offering new possibilities for users and developers alike.
-
-In summary, while PSBTs offer significant advantages for Bitcoin transactions, they also present challenges such as operational complexity and large file sizes. Ongoing developments, including PSBT version 2, aim to address these limitations, ensuring that PSBT remains a valuable tool for the Bitcoin ecosystem.
-
 ### [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs]([url](https://research.aimultiple.com/how-do-ordinals-marketplaces-work/))
 Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for trading Bitcoin NFTs. Here's a summary of how Ordinals incorporate PSBTs into their marketplace operations:
 
@@ -87,6 +77,16 @@ Ordinals marketplaces utilize Partially Signed Bitcoin Transactions (PSBT) for t
   - Transaction Process: PSBT-based transactions involve creating an unsigned transaction, obtaining signatures from necessary parties, finalizing it, and broadcasting it to the network.
 
 In summary, Ordinals marketplaces leverage PSBTs to facilitate secure and multi-party transactions for trading Bitcoin NFTs. Unlike traditional NFT marketplaces, Ordinals employ PSBTs to handle more complex scenarios and ensure additional layers of security, providing a robust framework for trading on the Bitcoin network.
+
+## [PSBT challenges]([url](https://d-central.tech/what-is-a-partially-signed-bitcoin-transaction-psbt/))
+The challenges and limitations associated with Partially Signed Bitcoin Transactions (PSBT) and discusses ongoing developments to address these issues. Here are the key points:
+
+- Learning Curve and Operational Complexity: PSBTs introduce a learning curve and operational complexity, especially for new Bitcoin users or those not technically inclined. The multi-step process of creating, signing, and broadcasting PSBTs can be daunting compared to traditional Bitcoin transactions, potentially hindering widespread adoption among casual users.
+- Size and Complexity of PSBT Files: PSBT files can become large and complex, particularly in transactions with multiple inputs, outputs, or signatures. Each component adds to the file's size, making it cumbersome to handle, especially when bandwidth and storage are limited. Managing and verifying the information within PSBT files can also be challenging, requiring careful attention to detail to avoid errors.
+- Ongoing Developments and Future Prospects: Developers in the Bitcoin community are actively working on enhancements and new versions of the PSBT standard to address its limitations. PSBT version 2 (BIP 370) is one such development aiming to improve transaction construction efficiency, support new transaction types, and reduce the size and complexity of PSBT files. These enhancements aim to simplify the PSBT process while retaining its security and flexibility benefits.
+- Community Commitment to Improvement: The ongoing development of PSBT underscores the Bitcoin community's commitment to evolving and improving the network's capabilities. Future iterations promise to enhance the security, privacy, and interoperability of Bitcoin transactions, offering new possibilities for users and developers alike.
+
+In summary, while PSBTs offer significant advantages for Bitcoin transactions, they also present challenges such as operational complexity and large file sizes. Ongoing developments, including PSBT version 2, aim to address these limitations, ensuring that PSBT remains a valuable tool for the Bitcoin ecosystem.
 
 ## How to create/sign/broadcast psbt
 
