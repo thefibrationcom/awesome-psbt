@@ -1,14 +1,14 @@
 # awesome-psbt
 Here you can find useful content about PSBTs:
 
-[- How PSBTs are used in different projects:](#section1)
-  [- Security of PSBT on Magic Eden](#section1.1)
-  [- Bitcoin Auctions on Magic Eden](#section1.2)
-  [- Contracts State Based on UTXOs in RGB protocol](#section1.3)
-  [- OKX implementation of PSBTs withinin their 'Discover' platform](#section1.4)
-  [- Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](#section1.5)
-[- PSBTs challenges](#section2)
-[- How to create/sign/broadcast psbt using different approaches](#section3)
+- [How PSBTs are used in different projects:](#section1)
+  - [Security of PSBT on Magic Eden](#section1.1)
+  - [Bitcoin Auctions on Magic Eden](#section1.2)
+  - [Contracts State Based on UTXOs in RGB protocol](#section1.3)
+  - [OKX implementation of PSBTs withinin their 'Discover' platform](#section1.4)
+  - [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](#section1.5)
+- [PSBTs challenges](#section2)
+- [How to create/sign/broadcast psbt using different approaches](#section3)
 <a id="section1"></a>
 ## How different projects are using PSBTs right now
 <a id="section1.1"></a>
