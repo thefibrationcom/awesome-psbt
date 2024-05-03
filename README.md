@@ -9,12 +9,15 @@ Here you can find useful content about PSBTs:
   - [Ordinals Protocol utilizes PSBTs for trading Bitcoin NFTs](#section1.5)
   - [Lightning CoinJoins](#section1.6)
   - [CoinSwap Wallet](#section1.7)
-  - [Wasabi Wallet CoinJoin](#section1.8) 
+  - [Wasabi Wallet CoinJoin](#section1.8)
+  - [Portal's Ordinal Atomic Swaps](#section1.9)
+- [Possible use cases of psbt](#section_possible_use_cases) 
 - [PSBTs challenges](#section2)
 - [BIPs](#section3)
 - [Libraries](#section4)
 - [BTC Runes](#section5)
 - [Inscriptions](#section6)
+- [Learn](#section7)
 
 <a id="section1"></a>
 ## How different projects are using PSBTs right now
@@ -33,7 +36,16 @@ Here you can find useful content about PSBTs:
 <a id="section1.7"></a>
 - [CoinSwap Wallet](https://www.coinswap.space/)
 <a id="section1.8"></a>
-- [Wasabi Wallet CoinJoin](https://blog.wasabiwallet.io/sending-psbt-transactions/) 
+- [Wasabi Wallet CoinJoin](https://blog.wasabiwallet.io/sending-psbt-transactions/)
+<a id="section1.9"></a>
+- [Portal's Ordinal Atomic Swaps](https://bitcoin-takeover.com/portal-presents-ordinal-atomic-swap-tech-demo/)
+
+<a id="section_possible_use_cases"></a>
+## Possible use cases of PSBTs
+- Light Pools (https://rodarmor.com/blog/tag/markets/)
+- Bitcoin lottery contract (https://github.com/supertestnet/bitcoin-lottery-contract/)
+- Transaction Data, Inputs & Outputs in Ordinals (https://github.com/ordinals/ord/discussions/3709)
+- Bring CRDT to ordinals (https://github.com/ordinals/ord/discussions/3657)
 
 <a id="section2"></a>
 ## PSBT challenges
@@ -59,6 +71,7 @@ Here you can find useful content about PSBTs:
 
 <a id="section5"></a>
 ## BTC Runes
+- Tokens on BTC: Casey Rodarmor Creator of Runes (https://www.youtube.com/watch?v=q9RDE8U6CkI)
 - What is Runes (https://runes.gitbook.io/xrcmarket/learn/what-is-runes)
 - RuneLib (https://github.com/sCrypt-Inc/runelib)
 - Issue discussion "How PSBTs work? ([Figure out how PSBTs work](https://github.com/casey/runestone/issues/46))
@@ -68,4 +81,31 @@ Here you can find useful content about PSBTs:
 - BRC20 standard (https://ordiswap.gitbook.io/ordiswap/protocol-concepts/brc-20-standard)
 - Things you Need To Know About Inscriptions (https://www.forbes.com/sites/digital-assets/2023/12/31/things-you-need-to-know-about-bitcoin-inscription/?sh=5787b8562859)
 - Ordiscan (https://ordiscan.com/)
-- Dune Ordinals Dashboard (https://dune.com/dataalways/ordinals) 
+- Dune Ordinals Dashboard (https://dune.com/dataalways/ordinals)
+- Casey Rodarmor: Creator of Ordinals Protocol (https://www.youtube.com/watch?v=IS406ToIRo4)
+
+<a id="section7"></a>
+## Learn
+
+### Podcasts:
+- Rodarmor podcast (https://hellpodcast.money/)
+- Ledger's New Bitcoin App: PSBT, Taproot (https://podcasts.apple.com/mu/podcast/slp337-salvatore-ingala-ledgers-new-bitcoin-app-psbt/id1415720320?i=1000547513341)
+- Episode 78: Partially Signed Bitcoin Transactions (https://www.youtube.com/watch?v=vyJhvGCfo88)
+- How to Buy, Sell and Mint Runes (https://www.youtube.com/watch?v=hGtZBlAkTKw)
+
+### Books, Docs:
+- Mastering Bitcoin (https://books.google.kz/books?id=4TfhEAAAQBAJ&dq=btc+psbt+whitepaper&hl=ru&source=gbs_navlinks_s)
+- How to Bitcoin (https://www.google.kz/books/edition/How_to_Bitcoin/31UnEAAAQBAJ?hl=ru&gbpv=0)
+- Bitcoin for Dummies (https://www.google.kz/books/edition/Bitcoin_For_Dummies/Nl9iEAAAQBAJ?hl=ru&gbpv=0)
+- Runes - Ordinal Theory Handbook (https://docs.ordinals.com/runes.html)
+
+### Articles:
+- The Basic Concept of PSBTs (https://medium.com/@emmanuelchidera/the-basic-concept-of-psbts-b21c18b5a40f)
+- In-depth Concept of Partially Signed Bitcoin Transactions: Part 2 (https://medium.com/@emmanuelchidera/in-depth-concept-of-partially-signed-bitcoin-transactions-part-2-548d1eafad46)
+- CoinJoin (https://en.bitcoin.it/wiki/CoinJoin)
+- CoinSwap (https://en.bitcoin.it/wiki/CoinSwap)
+- Atomic Swap (https://en.bitcoin.it/wiki/Atomic_swap)
+- How Do PSBT Dutch Auctions Work for Bitcoin Ordinal NFTs? (https://trustmachines.co/blog/how-do-psbt-dutch-auctions-work-for-bitcoin-ordinal-nfts/)
+- What Are Bitcoin Runes? Bringing Memecoins to Bitcoin (https://www.coingecko.com/learn/what-are-bitcoin-runes#:~:text=Runes%20in%20the%20Bitcoin%20Ecosystem&text=As%20each%20Runestone%20corresponds%20to,simple%2C%20efficient%2C%20and%20secure.)
+- Runes Protocol: Explained (https://trustwallet.com/ru/blog/runes-protocol-explained)
+- NFT 101: The Comprehensive Guide to Runestone & Runes Protocol (https://medium.com/nftscan/nft-101-the-comprehensive-guide-to-runestone-runes-protocol-4193d1f8dce2)
