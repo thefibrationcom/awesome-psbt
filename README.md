@@ -53,6 +53,8 @@ Here you can find useful content about PSBTs:
 - Taproot script-spend-path with sighash ALL|ANYONECANPAY (https://github.com/bitcoinjs/bitcoinjs-lib/issues/2046)
 - PSBT Taproot Key Path Finalizer Assumes Fixed 64-byte Signature Length (https://github.com/bitcoinjs/bitcoinjs-lib/issues/2004)
 - error in signing PSBT transaction via electrum (https://bitcoin.stackexchange.com/questions/117149/how-to-resolve-error-when-trying-to-sign-and-broadcast-psbt-transaction-via-elec)
+- Multi Signature with PSBT (https://github.com/zkSNACKs/zIPs/issues/60)
+- bitcoins blocked on wasabi wallet (https://github.com/zkSNACKs/WalletWasabi/discussions/12652)
 
 <a id="section3"></a>
 ## BIPs
@@ -62,12 +64,13 @@ Here you can find useful content about PSBTs:
 - BIP 0372 (https://en.bitcoin.it/wiki/BIP_0372)
 
 <a id="section4"></a>
-## Libraries:
+## Libraries / tools:
 - Bitcoinlib (https://github.com/petertodd/python-bitcoinlib)
 - bitcoinjs (https://github.com/bitcoinjs/bitcoinjs-lib)
 - bitcointx (https://pypi.org/project/python-bitcointx/)
 - btclib (https://btclib.org/)
 - rust-bitcoin (https://github.com/rust-bitcoin/rust-bitcoin)
+- munstr: MuSig + Nostr (https://github.com/0xBEEFCAF3/munstr)
 
 <a id="section5"></a>
 ## BTC Runes
@@ -98,6 +101,10 @@ Here you can find useful content about PSBTs:
 - How to Bitcoin (https://www.google.kz/books/edition/How_to_Bitcoin/31UnEAAAQBAJ?hl=ru&gbpv=0)
 - Bitcoin for Dummies (https://www.google.kz/books/edition/Bitcoin_For_Dummies/Nl9iEAAAQBAJ?hl=ru&gbpv=0)
 - Runes - Ordinal Theory Handbook (https://docs.ordinals.com/runes.html)
+- A Bitcoin Smart Contract Glossary: Tools and Best Practices (https://github.com/supertestnet/btcsmartcontracts)
+- Chain Signatures (https://docs.near.org/build/chain-abstraction/chain-signatures)
+- Submarine Swap - On-chain to Off-chain (https://bitcoinjs-guide.bitcoin-studio.com/bitcoinjs-guide/v5/part-three-pay-to-script-hash/submarine_swaps/swap_on2off_p2wsh)
+- PSBTs: Bitcoin Ordinals Wiki (https://bitcoinordinals.fandom.com/wiki/PSBTs)
 
 ### Articles:
 - The Basic Concept of PSBTs (https://medium.com/@emmanuelchidera/the-basic-concept-of-psbts-b21c18b5a40f)
@@ -109,3 +116,29 @@ Here you can find useful content about PSBTs:
 - What Are Bitcoin Runes? Bringing Memecoins to Bitcoin (https://www.coingecko.com/learn/what-are-bitcoin-runes#:~:text=Runes%20in%20the%20Bitcoin%20Ecosystem&text=As%20each%20Runestone%20corresponds%20to,simple%2C%20efficient%2C%20and%20secure.)
 - Runes Protocol: Explained (https://trustwallet.com/ru/blog/runes-protocol-explained)
 - NFT 101: The Comprehensive Guide to Runestone & Runes Protocol (https://medium.com/nftscan/nft-101-the-comprehensive-guide-to-runestone-runes-protocol-4193d1f8dce2)
+- Renaissance of Bitcoin Scaling V — Runes Protocol (https://lbanklabs.medium.com/renaissance-of-bitcoin-scaling-v-rune-protocol-9e518297d1dc)
+- Ordinals & PSBT — A Fresh Start for the Bitcoin Ecosystem (https://scalinglabs.medium.com/ordinals-psbt-a-fresh-start-for-the-bitcoin-ecosystem-50e0e543ad59)
+- PSBT vs Smart Contracts: An In-Depth Comparison for 2024 (https://www.marketingscoop.com/ai/psbt-vs-smart-contracts/)
+- The PSBT Standard (https://dev.to/eunovo/the-psbt-standard-i0d)
+- Bitcoin news: all the developments on the Lightning Network and the introduction of the PSBT standard (https://en.cryptonomist.ch/2023/06/15/bitcoin-news-arrive-psbt-lightning-network/)
+- Basic Analysis of Bitcoin BRC20 Ecosystem (https://dao.stafi.io/t/basic-analysis-of-bitcoin-brc20-ecosystem/89)
+- Taproot: You Betcha (https://blog.bitmex.com/taproot-you-betcha/)
+- WASABI VERSUS SAMOURAI: TX0 HAS NOTHING TO DO WITH IT (https://bitcoinmagazine.com/technical/wasabi-vs-samourai-for-bitcoin-mixing#:~:text=Wasabi%20elects%20to%20create%20very,anonymity%20across%20many%20successive%20transactions)
+- JoinStr: Decentralized CoinJoin Implementation Using Nostr (https://www.nobsbitcoin.com/joinstr-decentralized-coinjoin-implementation-using-nostr/)
+- zkSNACKs blocks U.S. users from Wasabi Wallet and other services (https://www.theblock.co/post/291293/zksnacks-blocks-u-s-users-from-wasabi-wallet-and-other-services)
+- ZKSNACKS Coinjoin Coordination Service Will Stop Functioning From June 1 (https://coinedition.com/zksnacks-coinjoin-coordination-service-will-stop-functioning-from-june-1/)
+- SLP364 MAX HILLEBRAND ZKSNACKS BLACKLISTING COINS (https://stephanlivera.com/episode/364/)
+- WASABI WALLET’S ADVISORY FOR TREZOR USERS (https://blog.wasabiwallet.io/wasabi-wallets-advisory-for-trezor-users/)
+- THE NOSTR PRIVACY PARADOX (https://bitcoinmagazine.com/technical/how-nostr-can-improve-bitcoin-privacy)
+
+### Discussions
+- Offer PBST design (https://github.com/ordinals/ord/issues/2706)
+- Figure out how PSBTs work (https://github.com/casey/runestone/issues/46)
+- Dynamic variable offer (https://github.com/casey/runestone/issues/105)
+- AMM infrastructure design (https://github.com/casey/runestone/issues/21)
+- The Wacky Zone (https://github.com/casey/runestone/issues/26)
+- Buy and Sell Inscriptions/Rare Sats (Buy and Sell Inscriptions/Rare Sats)
+- Takers & Makers (https://twitter.com/rodarmor/status/1778962658265628769)
+- Multisig Address (https://twitter.com/zhouzhuojie/status/1709313943012044893)
+- PSBTs are fantastic atomis swaps on Bitcoin, except the are centralizing force on Ordinals trading (https://twitter.com/BobBodily/status/1746257358312067531)
+
