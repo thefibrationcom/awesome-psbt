@@ -1,5 +1,5 @@
 # awesome-psbt
-Here you can find useful content about PSBTs:
+Discover "awesome-psbt": your go-to resource for exploring the versatility of Partially Signed Bitcoin Transactions (PSBTs). From enhancing security on platforms like Magic Eden to facilitating Bitcoin NFT trading with the Ordinals Protocol, this repository delves into diverse applications and challenges of PSBTs. Explore use cases, tackle complexities, and access essential resources for mastering PSBTs in the cryptocurrency realm.
 
 - [How PSBTs are used in different projects:](#section1)
   - [Security of PSBT on Magic Eden](#section1.1)
