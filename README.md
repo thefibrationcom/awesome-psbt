@@ -130,6 +130,7 @@ Discover "awesome-psbt": your go-to resource for exploring the versatility of Pa
 - SLP364 MAX HILLEBRAND ZKSNACKS BLACKLISTING COINS (https://stephanlivera.com/episode/364/)
 - WASABI WALLET’S ADVISORY FOR TREZOR USERS (https://blog.wasabiwallet.io/wasabi-wallets-advisory-for-trezor-users/)
 - THE NOSTR PRIVACY PARADOX (https://bitcoinmagazine.com/technical/how-nostr-can-improve-bitcoin-privacy)
+- Let the Rune Games Begin (https://www.decentralised.co/p/let-the-rune-games-begin)
 
 ### Discussions
 - Offer PBST design (https://github.com/ordinals/ord/issues/2706)
